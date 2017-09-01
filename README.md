@@ -2,7 +2,7 @@
 
 TeX Live in Docker.
 
-The `2017` version of `texlive-full`, installed using the texlive binary installer. Ghostscript is also installed.
+The `2017` version of `texlive-full`, installed using the texlive binary installer. Ghostscript is also installed, providing `ps2pdf`.
 
 Map the current directory (or the directory containing the `.tex` source files) to `/app`, and run any command. For example:
 
