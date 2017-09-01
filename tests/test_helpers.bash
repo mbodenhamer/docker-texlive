@@ -1,5 +1,5 @@
 TEXLIVE_YEAR=2017
-DOCKER_IMAGE=diotrephes
+DOCKER_IMAGE=mbodenhamer/texlive:latest
 TEST_FILE=$(basename $BATS_TEST_FILENAME .bats)
 TEST_DIR=$(dirname $BATS_TEST_FILENAME)
 
