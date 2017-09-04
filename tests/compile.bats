@@ -3,7 +3,8 @@ load test_helpers
 
 @test "[$TEST_FILE] Check texlive version" {
     run launch latex --version
-    [[ ${lines[0]} =~ "TeX Live ${TEXLIVE_YEAR}" ]]
+    echo ${lines[0]}
+    [[ ${lines[0]} =~ "TeX Live 2017" ]]
 }
 
 @test "[$TEST_FILE] latex compile" {
